@@ -5,7 +5,6 @@ int main() {
     char filename[50];
     printf("Enter filename: ");
     scanf("%s", filename);
-
     // Create a new file
     createFile(filename);
 
